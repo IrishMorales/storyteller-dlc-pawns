@@ -9,7 +9,7 @@
         <li>r_name->[name]</li>
       </rulesStrings>
       <rulesFiles>
-        <li>[name]->Names/CassandraClassic</li>
+        <li>[name]->Names/Storytellers/CassandraClassic</li>
       </rulesFiles>
     </rulePack>
   </RulePackDef>
@@ -22,7 +22,7 @@
         <li>r_name->[name]</li>
       </rulesStrings>
       <rulesFiles>
-        <li>[name]->Names/PhoebeChillax</li>
+        <li>[name]->Names/Storytellers/PhoebeChillax</li>
       </rulesFiles>
     </rulePack>
   </RulePackDef>
@@ -35,7 +35,7 @@
         <li>r_name->[name]</li>
       </rulesStrings>
       <rulesFiles>
-        <li>[name]->Names/RandyRandom</li>
+        <li>[name]->Names/Storytellers/RandyRandom</li>
       </rulesFiles>
     </rulePack>
   </RulePackDef>

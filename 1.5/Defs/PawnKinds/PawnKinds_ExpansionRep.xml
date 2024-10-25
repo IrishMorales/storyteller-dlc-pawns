@@ -20,4 +20,23 @@
         <minApparelQuality>Normal</minApparelQuality>
         <maxApparelQuality>Excellent</maxApparelQuality>
     </PawnKindDef>
+    <!-- Royalty Rep -->
+    <PawnKindDef ParentName="ExpansionRepBase"> 
+        <defName>Royalty_Rep</defName>
+        <race>Human</race>
+        <!-- <backstoryCategories></backstoryCategories> -->
+        <!-- <forcedHair></forcedHair> -->
+        <!-- <forcedHairColor></forcedHairColor> -->
+        <nameMaker></nameMaker>
+        <!-- <forcedTraits></forcedTraits> -->
+        <fixedChildBackstories></fixedChildBackstories>
+        <fixedAdultBackstories></fixedAdultBackstories>
+        <fixedGender>Male</fixedGender>
+        <!-- <weaponStuffOverride></weaponStuffOverride> -->
+        <!-- <weaponStyleDef></weaponStyleDef> -->
+        <!-- <apparelRequired></apparelRequired> -->
+        <!-- <apparelColor></apparelColor> -->
+        <!-- <skinColorOverride></skinColorOverride> -->
+        <!-- <specificApparelRequirements></specificApparelRequirements> -->
+    </PawnKindDef>
 </Defs>

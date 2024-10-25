@@ -24,7 +24,7 @@
 
     <!-- Royalty Rep -->
     <PawnKindDef ParentName="ExpansionRepBase">
-        <defName>Royalty_Rep</defName>
+        <defName>ExpansionRep_Royalty</defName>
         <label>royal inquisitor</label>
         <labelPlural>royal inquisitors</labelPlural>
         <race>Human</race>
@@ -45,7 +45,7 @@
 
     <!-- Ideology Rep -->
     <PawnKindDef ParentName="ExpansionRepBase">
-        <defName>Ideology_Rep</defName>
+        <defName>ExpansionRep_Ideology</defName>
         <label>priestess</label>
         <labelPlural>priestesses</labelPlural>
         <race>Human</race>
@@ -66,7 +66,7 @@
 
     <!-- Biotech Rep -->
     <PawnKindDef ParentName="ExpansionRepBase">
-        <defName>Biotech_Rep</defName>
+        <defName>ExpansionRep_Biotech</defName>
         <label>guardian</label>
         <labelPlural>guardians</labelPlural>
         <race>Human</race>
@@ -87,7 +87,7 @@
 
     <!-- Anomaly Rep -->
     <PawnKindDef ParentName="ExpansionRepBase">
-        <defName>Anomaly_Rep</defName>
+        <defName>ExpansionRep_Anomaly</defName>
         <label>anomaly scholar</label>
         <labelPlural>anomaly scholars</labelPlural>
         <race>Human</race>

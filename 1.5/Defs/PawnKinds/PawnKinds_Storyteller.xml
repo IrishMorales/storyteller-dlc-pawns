@@ -32,7 +32,7 @@
 
     <!-- Cassandra Classic -->
     <PawnKindDef ParentName="StorytellerBase">
-        <defName>Cassandra_Classic</defName>
+        <defName>Storyteller_CassandraClassic</defName>
         <race>Human</race>
         <!-- <backstoryCategories></backstoryCategories> -->
         <!-- <forcedHair></forcedHair> -->
@@ -53,7 +53,7 @@
 
     <!-- Phoebe Chillax -->
     <PawnKindDef ParentName="StorytellerBase">
-        <defName>Phoebe_Chillax</defName>
+        <defName>Storyteller_PhoebeChillax</defName>
         <race>Human</race>
         <!-- <backstoryCategories></backstoryCategories> -->
         <!-- <forcedHair></forcedHair> -->
@@ -75,7 +75,7 @@
 
     <!-- Randy Random -->
     <PawnKindDef ParentName="StorytellerBase">
-        <defName>Randy_Random</defName>
+        <defName>Storyteller_RandyRandom</defName>
         <race>Human</race>
         <!-- <backstoryCategories></backstoryCategories> -->
         <!-- <forcedHair></forcedHair> -->

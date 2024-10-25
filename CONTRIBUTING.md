@@ -115,6 +115,8 @@ ModFolder
 
 If you have any fixes to "Patches" for a DLC on a specific version (ex. Royalty 1.4), please put it in Royalty/1.4/Patches ONLY IF `MayRequire` does not work on the XML node you are adding. If `MayRequire` works for the node, please put it in that version's folder (ex. 1.4) instead. This is to keep the DLC folders as small as possible to reduce complexity.
 
+In addition, please work on your code in your own branch. Please run `git checkout -b yourbranch` from the `develop` branch, not the `main` branch.
+
 Once you're ready to add code, please open a pull request, add me (IrishMorales) reviewer, and describe what your code does in the description. Thanks! :)
 
 ## Creating art assets

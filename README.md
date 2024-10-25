@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Storyteller & DLC Pawns</h1>
+<h1>Storyteller and DLC Pawns</h1>
 <p>A Rimworld mod that adds the storytellers &amp; DLC characters as pawns who can visit, join, or fight your colony</p>
 </div>
 

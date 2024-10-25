@@ -5,9 +5,15 @@
 
 ```
 Development is ongoing! All contributions are welcome. :)
-
-If you have any ideas or would like to contribute to this project, please open a GitHub issue or email at asemorales.tech@gmail.com.
 ```
+
+## Contributing
+
+If you have any ideas or would like to contribute to this project, please read CONTRIBUTING.md - and thank you for wanting to!
+
+## Forking
+
+Please see CONTRIBUTING.md to understand how this project is set up for your own forks.
 
 ## Contributors
 

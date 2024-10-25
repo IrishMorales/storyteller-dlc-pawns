@@ -26,4 +26,25 @@
         <minApparelQuality>Masterwork</minApparelQuality>
         <maxApparelQuality>Legendary</maxApparelQuality>
     </PawnKindDef>
+    <!-- Cassandra Classic -->
+    <PawnKindDef ParentName="StorytellerBase">
+        <defName>Cassandra_Classic</defName>
+        <race>Human</race>
+        <!-- <backstoryCategories></backstoryCategories> -->
+        <!-- <forcedHair></forcedHair> -->
+        <!-- <forcedHairColor></forcedHairColor> -->
+        <nameMakerFemale></nameMakerFemale>
+        <!-- <forcedTraits></forcedTraits> -->
+        <!-- <fixedChildBackstories></fixedChildBackstories> -->
+        <!-- <fixedAdultBackstories></fixedAdultBackstories> -->
+        <fixedGender>Female</fixedGender>
+        <!-- <weaponStuffOverride></weaponStuffOverride> -->
+        <!-- <weaponStyleDef></weaponStyleDef> -->
+        <!-- <apparelRequired></apparelRequired> -->
+        <!-- <apparelColor></apparelColor> -->
+        <!-- <skinColorOverride></skinColorOverride> -->
+        <favoriteColor>blue</favoriteColor>
+        <!-- <specificApparelRequirements></specificApparelRequirements> -->
+        <chemicalAddictionChance>0.05</chemicalAddictionChance>
+    </PawnKindDef>
 </Defs>

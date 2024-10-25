@@ -30,7 +30,7 @@ All the amazing people who make this mod possible! Updating this as development 
 <details>
     <summary>u/filipfrantz on Reddit - Original inspiration for the pawn designs</summary>
     <ul>
-        <li>Created designs for the <a href="">Royalty</a>, <a href="">Biotech</a>, & <a href="">Anomaly</a> DLC characters on Reddit, which inspired this mod!</li>
+        <li>Created designs for the <a href="https://www.reddit.com/r/RimWorld/comments/1ga4zby/i_tried_to_draw_the_guy_in_the_royalty_dlc_logo/">Royalty</a>, <a href="https://www.reddit.com/r/RimWorld/comments/1g9f3a5/i_tried_to_draw_the_guy_in_the_biotech_dlc_logo/">Biotech</a>, & <a href="https://www.reddit.com/r/RimWorld/comments/1gb95hc/i_tried_to_draw_the_girl_from_the_anomaly_dlc_as/">Anomaly</a> DLC characters on Reddit, which inspired this mod!</li>
     </ul>
 </details>
 

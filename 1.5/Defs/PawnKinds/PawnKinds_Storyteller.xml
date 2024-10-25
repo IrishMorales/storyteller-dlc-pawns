@@ -47,4 +47,27 @@
         <!-- <specificApparelRequirements></specificApparelRequirements> -->
         <chemicalAddictionChance>0.05</chemicalAddictionChance>
     </PawnKindDef>
+    <!-- Phoebe Chillax -->
+    <PawnKindDef ParentName="StorytellerBase">
+        <defName>Phoebe_Chillax</defName>
+        <race>Human</race>
+        <fixedGender></fixedGender>
+        <!-- <backstoryCategories></backstoryCategories> -->
+        <!-- <forcedHair></forcedHair> -->
+        <!-- <forcedHairColor></forcedHairColor> -->
+        <nameMakerFemale></nameMakerFemale>
+        <!-- <forcedTraits></forcedTraits> -->
+        <!-- <fixedChildBackstories></fixedChildBackstories> -->
+        <!-- <fixedAdultBackstories></fixedAdultBackstories> -->
+        <fixedGender>Female</fixedGender>
+        <!-- <weaponStuffOverride></weaponStuffOverride> -->
+        <!-- <weaponStyleDef></weaponStyleDef> -->
+        <!-- <apparelRequired></apparelRequired> -->
+        <!-- <apparelColor></apparelColor> -->
+        <!-- <skinColorOverride></skinColorOverride> -->
+        <favoriteColor>green</favoriteColor>
+        <!-- <specificApparelRequirements></specificApparelRequirements> -->
+        <chemicalAddictionChance>0.12</chemicalAddictionChance>
+        <combatEnhancingDrugsChance>0.12</combatEnhancingDrugsChance>
+    </PawnKindDef>
 </Defs>

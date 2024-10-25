@@ -33,7 +33,7 @@
         <!-- <backstoryCategories></backstoryCategories> -->
         <!-- <forcedHair></forcedHair> -->
         <!-- <forcedHairColor></forcedHairColor> -->
-        <nameMakerFemale></nameMakerFemale>
+        <nameMakerFemale>NamerStorytellerCassandraClassic</nameMakerFemale>
         <!-- <forcedTraits></forcedTraits> -->
         <!-- <fixedChildBackstories></fixedChildBackstories> -->
         <!-- <fixedAdultBackstories></fixedAdultBackstories> -->
@@ -51,11 +51,10 @@
     <PawnKindDef ParentName="StorytellerBase">
         <defName>Phoebe_Chillax</defName>
         <race>Human</race>
-        <fixedGender></fixedGender>
         <!-- <backstoryCategories></backstoryCategories> -->
         <!-- <forcedHair></forcedHair> -->
         <!-- <forcedHairColor></forcedHairColor> -->
-        <nameMakerFemale></nameMakerFemale>
+        <nameMakerFemale>NamerStorytellerPhoebeChillax</nameMakerFemale>
         <!-- <forcedTraits></forcedTraits> -->
         <!-- <fixedChildBackstories></fixedChildBackstories> -->
         <!-- <fixedAdultBackstories></fixedAdultBackstories> -->
@@ -77,7 +76,7 @@
         <!-- <backstoryCategories></backstoryCategories> -->
         <!-- <forcedHair></forcedHair> -->
         <!-- <forcedHairColor></forcedHairColor> -->
-        <nameMaker></nameMaker>
+        <nameMaker>NamerStorytellerRandyRandom</nameMaker>
         <!-- <forcedTraits></forcedTraits> -->
         <!-- <fixedChildBackstories></fixedChildBackstories> -->
         <!-- <fixedAdultBackstories></fixedAdultBackstories> -->

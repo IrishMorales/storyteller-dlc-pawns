@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Cassandra Classic -->
+  <RulePackDef>
+    <defName>NamerStorytellerCassandraClassic</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[name]</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>[name]->Names/CassandraClassic</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- Phoebe Chillax -->
+  <RulePackDef>
+    <defName>NamerStorytellerPhoebeChillax</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[name]</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>[name]->Names/PhoebeChillax</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- Randy Random -->
+  <RulePackDef>
+    <defName>NamerStorytellerRandyRandom</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[name]</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>[name]->Names/RandyRandom</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

@@ -3,8 +3,6 @@
 
     <!-- Base class for expansion reps -->
     <PawnKindDef Name="ExpansionRepBase" Abstract="True">
-        <label>representative</label>
-        <labelPlural>representatives</labelPlural>
         <studiableAsPrisoner>false</studiableAsPrisoner>
         <isBoss>false</isBoss>
         <allowOldAgeInjuries>true</allowOldAgeInjuries>
@@ -26,6 +24,8 @@
     <!-- Royalty Rep -->
     <PawnKindDef ParentName="ExpansionRepBase">
         <defName>Royalty_Rep</defName>
+        <label>royal inquisitor</label>
+        <labelPlural>royal inquisitors</labelPlural>
         <race>Human</race>
         <!-- <backstoryCategories></backstoryCategories> -->
         <!-- <forcedHair></forcedHair> -->
@@ -46,6 +46,8 @@
     <!-- Ideology Rep -->
     <PawnKindDef ParentName="ExpansionRepBase">
         <defName>Ideology_Rep</defName>
+        <label>priestess</label>
+        <labelPlural>priestesses</labelPlural>
         <race>Human</race>
         <!-- <backstoryCategories></backstoryCategories> -->
         <!-- <forcedHair></forcedHair> -->
@@ -66,6 +68,8 @@
     <!-- Biotech Rep -->
     <PawnKindDef ParentName="ExpansionRepBase">
         <defName>Biotech_Rep</defName>
+        <label>guardian</label>
+        <labelPlural>guardians</labelPlural>
         <race>Human</race>
         <!-- <backstoryCategories></backstoryCategories> -->
         <!-- <forcedHair></forcedHair> -->
@@ -86,6 +90,8 @@
     <!-- Anomaly Rep -->
     <PawnKindDef ParentName="ExpansionRepBase">
         <defName>Anomaly_Rep</defName>
+        <label>anomaly scholar</label>
+        <labelPlural>anomaly scholars</labelPlural>
         <race>Human</race>
         <!-- <backstoryCategories></backstoryCategories> -->
         <!-- <forcedHair></forcedHair> -->
@@ -102,5 +108,5 @@
         <!-- <skinColorOverride></skinColorOverride> -->
         <!-- <specificApparelRequirements></specificApparelRequirements> -->
     </PawnKindDef>
-    
+
 </Defs>

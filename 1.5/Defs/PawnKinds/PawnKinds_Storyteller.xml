@@ -70,4 +70,26 @@
         <chemicalAddictionChance>0.12</chemicalAddictionChance>
         <combatEnhancingDrugsChance>0.12</combatEnhancingDrugsChance>
     </PawnKindDef>
+    <!-- Randy Random -->
+    <PawnKindDef ParentName="StorytellerBase">
+        <defName>Randy_Random</defName>
+        <race>Human</race>
+        <!-- <backstoryCategories></backstoryCategories> -->
+        <!-- <forcedHair></forcedHair> -->
+        <!-- <forcedHairColor></forcedHairColor> -->
+        <nameMaker></nameMaker>
+        <!-- <forcedTraits></forcedTraits> -->
+        <!-- <fixedChildBackstories></fixedChildBackstories> -->
+        <!-- <fixedAdultBackstories></fixedAdultBackstories> -->
+        <fixedGender>Male</fixedGender>
+        <!-- <weaponStuffOverride></weaponStuffOverride> -->
+        <!-- <weaponStyleDef></weaponStyleDef> -->
+        <!-- <apparelRequired></apparelRequired> -->
+        <!-- <apparelColor></apparelColor> -->
+        <!-- <skinColorOverride></skinColorOverride> -->
+        <favoriteColor>red</favoriteColor>
+        <!-- <specificApparelRequirements></specificApparelRequirements> -->
+        <chemicalAddictionChance>0.87</chemicalAddictionChance>
+        <combatEnhancingDrugsChance>0.42</combatEnhancingDrugsChance>
+    </PawnKindDef>
 </Defs>

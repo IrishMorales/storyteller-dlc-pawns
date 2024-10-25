@@ -9,11 +9,11 @@ Development is ongoing! All contributions are welcome. :)
 
 ## Contributing
 
-If you have any ideas or would like to contribute to this project, please read CONTRIBUTING.md - and thank you for wanting to!
+If you have any ideas or would like to contribute to this project, please read [CONTRIBUTING.md](https://github.com/IrishMorales/storyteller-dlc-pawns/blob/main/CONTRIBUTING.md) - and thank you for taking the time to contribute! :)
 
 ## Forking
 
-Please see CONTRIBUTING.md to understand how this project is set up for your own forks.
+Please see [CONTRIBUTING.md](https://github.com/IrishMorales/storyteller-dlc-pawns/blob/main/CONTRIBUTING.md) to understand how this project is set up for your own forks.
 
 ## Contributors
 
@@ -21,24 +21,22 @@ All the amazing people who make this mod possible! Updating this as development 
 
 <details>
     <summary>u/ArcWolf713 on Reddit - Original mod idea & majority of the pawn flavor text & events</summary>
-    
-    - Original mod idea is from [this comment!](https://www.reddit.com/r/RimWorld/comments/1ga4zby/comment/ltbieby/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
-
-    - Majority of pawn flavor text & events from [this comment!](https://www.reddit.com/r/RimWorld/comments/1ga4zby/comment/ltk3r6c/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
-
+    <ul>
+        <li>Original mod idea is from <a href="https://www.reddit.com/r/RimWorld/comments/1ga4zby/comment/ltbieby/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button">this comment!</a></li>
+        <li>Majority of pawn flavor text & events are from <a href="https://www.reddit.com/r/RimWorld/comments/1ga4zby/comment/ltk3r6c/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button">this comment!</a></li>
+    </ul>
 </details>
 
 <details>
     <summary>u/filipfrantz on Reddit - Original inspiration for the pawn designs</summary>
-    
-    - Created designs for the Royalty, Biotech, & Anomaly DLC characters on Reddit, which later inspired this mod!
-
+    <ul>
+        <li>Created designs for the <a href="">Royalty</a>, <a href="">Biotech</a>, & <a href="">Anomaly</a> DLC characters on Reddit, which inspired this mod!</li>
+    </ul>
 </details>
 
 ## Others
 
 <details>
     <summary>Licensing</summary>
-    
-    All code falls under the MIT license. All assets fall under the copyright of their respective owners - if you want to use that asset, please reach out to the asset creator. You can find them under 'Contributors'. Thanks!
+    <p>All code falls under the MIT license. All assets fall under the copyright of their respective owners - if you want to use that asset, please reach out to the asset creator. You can find them under 'Contributors'. Thanks!</p>
 </details>

@@ -8,7 +8,7 @@
         <preventIdeo>true</preventIdeo>
         <studiableAsPrisoner>true</studiableAsPrisoner>
         <isBoss>true</isBoss>
-        <minGenerationAge>100000</minGenerationAge>
+        <minGenerationAge>20</minGenerationAge>
         <maxGenerationAge>999999</maxGenerationAge>
         <allowOldAgeInjuries>false</allowOldAgeInjuries>
         <canStrip>true</canStrip>

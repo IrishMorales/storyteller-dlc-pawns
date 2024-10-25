@@ -46,7 +46,6 @@
         <!-- <apparelRequired></apparelRequired> -->
         <!-- <apparelColor></apparelColor> -->
         <!-- <skinColorOverride></skinColorOverride> -->
-        <favoriteColor>blue</favoriteColor>
         <!-- <specificApparelRequirements></specificApparelRequirements> -->
         <chemicalAddictionChance>0.05</chemicalAddictionChance>
     </PawnKindDef>
@@ -68,7 +67,6 @@
         <!-- <apparelRequired></apparelRequired> -->
         <!-- <apparelColor></apparelColor> -->
         <!-- <skinColorOverride></skinColorOverride> -->
-        <favoriteColor>green</favoriteColor>
         <!-- <specificApparelRequirements></specificApparelRequirements> -->
         <chemicalAddictionChance>0.12</chemicalAddictionChance>
         <combatEnhancingDrugsChance>0.12</combatEnhancingDrugsChance>
@@ -91,7 +89,6 @@
         <!-- <apparelRequired></apparelRequired> -->
         <!-- <apparelColor></apparelColor> -->
         <!-- <skinColorOverride></skinColorOverride> -->
-        <favoriteColor>red</favoriteColor>
         <!-- <specificApparelRequirements></specificApparelRequirements> -->
         <chemicalAddictionChance>0.87</chemicalAddictionChance>
         <combatEnhancingDrugsChance>0.42</combatEnhancingDrugsChance>

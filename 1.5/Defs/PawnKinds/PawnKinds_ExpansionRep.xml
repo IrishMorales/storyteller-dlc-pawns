@@ -1,4 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
     <!-- Base class for expansion reps -->
     <PawnKindDef Name="ExpansionRepBase" Abstract="True">
         <label>representative</label>
@@ -20,6 +22,7 @@
         <minApparelQuality>Normal</minApparelQuality>
         <maxApparelQuality>Excellent</maxApparelQuality>
     </PawnKindDef>
+
     <!-- Royalty Rep -->
     <PawnKindDef ParentName="ExpansionRepBase">
         <defName>Royalty_Rep</defName>
@@ -39,6 +42,7 @@
         <!-- <skinColorOverride></skinColorOverride> -->
         <!-- <specificApparelRequirements></specificApparelRequirements> -->
     </PawnKindDef>
+
     <!-- Ideology Rep -->
     <PawnKindDef ParentName="ExpansionRepBase">
         <defName>Ideology_Rep</defName>
@@ -58,6 +62,7 @@
         <!-- <skinColorOverride></skinColorOverride> -->
         <!-- <specificApparelRequirements></specificApparelRequirements> -->
     </PawnKindDef>
+
     <!-- Biotech Rep -->
     <PawnKindDef ParentName="ExpansionRepBase">
         <defName>Biotech_Rep</defName>
@@ -77,6 +82,7 @@
         <!-- <skinColorOverride></skinColorOverride> -->
         <!-- <specificApparelRequirements></specificApparelRequirements> -->
     </PawnKindDef>
+
     <!-- Anomaly Rep -->
     <PawnKindDef ParentName="ExpansionRepBase">
         <defName>Anomaly_Rep</defName>
@@ -96,4 +102,5 @@
         <!-- <skinColorOverride></skinColorOverride> -->
         <!-- <specificApparelRequirements></specificApparelRequirements> -->
     </PawnKindDef>
+    
 </Defs>

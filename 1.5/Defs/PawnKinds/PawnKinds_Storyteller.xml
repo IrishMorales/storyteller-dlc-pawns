@@ -1,4 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
     <!-- Base class for storytellers -->
     <PawnKindDef Name="StorytellerBase" Abstract="True">
         <label>storyteller</label>
@@ -26,6 +28,7 @@
         <minApparelQuality>Masterwork</minApparelQuality>
         <maxApparelQuality>Legendary</maxApparelQuality>
     </PawnKindDef>
+
     <!-- Cassandra Classic -->
     <PawnKindDef ParentName="StorytellerBase">
         <defName>Cassandra_Classic</defName>
@@ -47,6 +50,7 @@
         <!-- <specificApparelRequirements></specificApparelRequirements> -->
         <chemicalAddictionChance>0.05</chemicalAddictionChance>
     </PawnKindDef>
+
     <!-- Phoebe Chillax -->
     <PawnKindDef ParentName="StorytellerBase">
         <defName>Phoebe_Chillax</defName>
@@ -69,6 +73,7 @@
         <chemicalAddictionChance>0.12</chemicalAddictionChance>
         <combatEnhancingDrugsChance>0.12</combatEnhancingDrugsChance>
     </PawnKindDef>
+
     <!-- Randy Random -->
     <PawnKindDef ParentName="StorytellerBase">
         <defName>Randy_Random</defName>
@@ -91,4 +96,5 @@
         <chemicalAddictionChance>0.87</chemicalAddictionChance>
         <combatEnhancingDrugsChance>0.42</combatEnhancingDrugsChance>
     </PawnKindDef>
+    
 </Defs>

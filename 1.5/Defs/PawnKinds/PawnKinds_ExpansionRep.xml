@@ -8,6 +8,7 @@
         <allowOldAgeInjuries>true</allowOldAgeInjuries>
         <canStrip>true</canStrip>
         <hostileToAll>false</hostileToAll>
+        <initialResistanceRange>10~20</initialResistanceRange>
         <initialWillRange>3~5</initialWillRange>
         <immuneToGameConditionEffects>false</immuneToGameConditionEffects>
         <immuneToTraps>false</immuneToTraps>

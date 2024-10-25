@@ -1,0 +1,29 @@
+<Defs>
+    <!-- Base class for storytellers -->
+    <PawnKindDef Name="StorytellerBase" Abstract="True">
+        <label>storyteller</label>
+        <labelPlural>storytellers</labelPlural>
+        <preventIdeo>true</preventIdeo>
+        <studiableAsPrisoner>true</studiableAsPrisoner>
+        <isBoss>true</isBoss>
+        <minGenerationAge>900000</minGenerationAge>
+        <maxGenerationAge>999999</maxGenerationAge>
+        <allowOldAgeInjuries>false</allowOldAgeInjuries>
+        <canStrip>true</canStrip>
+        <hostileToAll>false</hostileToAll>
+        <initialWillRange>3~5</initialWillRange>
+        <immuneToGameConditionEffects>true</immuneToGameConditionEffects>
+        <immuneToTraps>true</immuneToTraps>
+        <ignoresPainShock>true</ignoresPainShock>
+        <isFighter>true</isFighter>
+        <combatPower>200</combatPower>
+        <canBeSapper>true</canBeSapper>
+        <isGoodBreacher>true</isGoodBreacher>
+        <maxPerGroup>1</maxPerGroup>
+        <isGoodPsychicRitualInvoker>true</isGoodPsychicRitualInvoker>
+        <itemQuality>Legendary</itemQuality>
+        <forceWeaponQuality>Legendary</forceWeaponQuality>
+        <minApparelQuality>Masterwork</minApparelQuality>
+        <maxApparelQuality>Legendary</maxApparelQuality>
+    </PawnKindDef>
+</Defs>

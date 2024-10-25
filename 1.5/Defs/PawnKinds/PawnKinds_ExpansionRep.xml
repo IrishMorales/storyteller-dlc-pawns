@@ -1,0 +1,23 @@
+<Defs>
+    <!-- Base class for expansion reps -->
+    <PawnKindDef Name="ExpansionRepBase" Abstract="True">
+        <label>representative</label>
+        <labelPlural>representatives</labelPlural>
+        <studiableAsPrisoner>false</studiableAsPrisoner>
+        <isBoss>false</isBoss>
+        <allowOldAgeInjuries>true</allowOldAgeInjuries>
+        <canStrip>true</canStrip>
+        <hostileToAll>false</hostileToAll>
+        <initialWillRange>3~5</initialWillRange>
+        <immuneToGameConditionEffects>false</immuneToGameConditionEffects>
+        <immuneToTraps>false</immuneToTraps>
+        <ignoresPainShock>false</ignoresPainShock>
+        <isFighter>true</isFighter>
+        <combatPower>140</combatPower>
+        <maxPerGroup>1</maxPerGroup>
+        <itemQuality>Normal</itemQuality>
+        <forceWeaponQuality>Normal</forceWeaponQuality>
+        <minApparelQuality>Normal</minApparelQuality>
+        <maxApparelQuality>Excellent</maxApparelQuality>
+    </PawnKindDef>
+</Defs>

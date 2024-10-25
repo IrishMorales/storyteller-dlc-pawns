@@ -21,7 +21,7 @@
         <maxApparelQuality>Excellent</maxApparelQuality>
     </PawnKindDef>
     <!-- Royalty Rep -->
-    <PawnKindDef ParentName="ExpansionRepBase"> 
+    <PawnKindDef ParentName="ExpansionRepBase">
         <defName>Royalty_Rep</defName>
         <race>Human</race>
         <!-- <backstoryCategories></backstoryCategories> -->
@@ -32,6 +32,63 @@
         <fixedChildBackstories></fixedChildBackstories>
         <fixedAdultBackstories></fixedAdultBackstories>
         <fixedGender>Male</fixedGender>
+        <!-- <weaponStuffOverride></weaponStuffOverride> -->
+        <!-- <weaponStyleDef></weaponStyleDef> -->
+        <!-- <apparelRequired></apparelRequired> -->
+        <!-- <apparelColor></apparelColor> -->
+        <!-- <skinColorOverride></skinColorOverride> -->
+        <!-- <specificApparelRequirements></specificApparelRequirements> -->
+    </PawnKindDef>
+    <!-- Ideology Rep -->
+    <PawnKindDef ParentName="ExpansionRepBase">
+        <defName>Ideology_Rep</defName>
+        <race>Human</race>
+        <!-- <backstoryCategories></backstoryCategories> -->
+        <!-- <forcedHair></forcedHair> -->
+        <!-- <forcedHairColor></forcedHairColor> -->
+        <nameMakerFemale></nameMakerFemale>
+        <!-- <forcedTraits></forcedTraits> -->
+        <fixedChildBackstories></fixedChildBackstories>
+        <fixedAdultBackstories></fixedAdultBackstories>
+        <fixedGender>Female</fixedGender>
+        <!-- <weaponStuffOverride></weaponStuffOverride> -->
+        <!-- <weaponStyleDef></weaponStyleDef> -->
+        <!-- <apparelRequired></apparelRequired> -->
+        <!-- <apparelColor></apparelColor> -->
+        <!-- <skinColorOverride></skinColorOverride> -->
+        <!-- <specificApparelRequirements></specificApparelRequirements> -->
+    </PawnKindDef>
+    <!-- Biotech Rep -->
+    <PawnKindDef ParentName="ExpansionRepBase">
+        <defName>Biotech_Rep</defName>
+        <race>Human</race>
+        <!-- <backstoryCategories></backstoryCategories> -->
+        <!-- <forcedHair></forcedHair> -->
+        <!-- <forcedHairColor></forcedHairColor> -->
+        <nameMaker></nameMaker>
+        <!-- <forcedTraits></forcedTraits> -->
+        <fixedChildBackstories></fixedChildBackstories>
+        <fixedAdultBackstories></fixedAdultBackstories>
+        <fixedGender>Male</fixedGender>
+        <!-- <weaponStuffOverride></weaponStuffOverride> -->
+        <!-- <weaponStyleDef></weaponStyleDef> -->
+        <!-- <apparelRequired></apparelRequired> -->
+        <!-- <apparelColor></apparelColor> -->
+        <!-- <skinColorOverride></skinColorOverride> -->
+        <!-- <specificApparelRequirements></specificApparelRequirements> -->
+    </PawnKindDef>
+    <!-- Anomaly Rep -->
+    <PawnKindDef ParentName="ExpansionRepBase">
+        <defName>Anomaly_Rep</defName>
+        <race>Human</race>
+        <!-- <backstoryCategories></backstoryCategories> -->
+        <!-- <forcedHair></forcedHair> -->
+        <!-- <forcedHairColor></forcedHairColor> -->
+        <nameMakerFemale></nameMakerFemale>
+        <!-- <forcedTraits></forcedTraits> -->
+        <fixedChildBackstories></fixedChildBackstories>
+        <fixedAdultBackstories></fixedAdultBackstories>
+        <fixedGender>Female</fixedGender>
         <!-- <weaponStuffOverride></weaponStuffOverride> -->
         <!-- <weaponStyleDef></weaponStyleDef> -->
         <!-- <apparelRequired></apparelRequired> -->

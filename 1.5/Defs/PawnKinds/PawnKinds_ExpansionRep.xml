@@ -23,7 +23,7 @@
     </PawnKindDef>
 
     <!-- Royalty Rep -->
-    <PawnKindDef MayRequire="Ludeon.RimWorld.Royalty" ParentName="RoyalUpperBase" Inherit="False">
+    <PawnKindDef MayRequire="Ludeon.RimWorld.Royalty" ParentName="RoyalBase" Inherit="False">
         <defName>ExpansionRep_Royalty</defName>
         <label>royal inquisitor</label>
         <labelPlural>royal inquisitors</labelPlural>

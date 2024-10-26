@@ -39,10 +39,20 @@
                 </categoriesChildhood>
             </li>
         </backstoryFiltersOverride>
-        <!-- forces the body type "Male" -->
+        <!-- forces only backstories with the body type "Male" -->
         <fixedAdultBackstories>
             <li>Spymaster41</li>
             <li>Landworker98</li>
+            <li>RoyalGuard51</li>
+            <li>MilitaryChaplain10</li>
+            <li>Demolitionist39</li>
+            <li>InfantryOfficer49</li>
+            <li>Deserter65</li>
+            <li>IntelligenceAgent21</li>
+            <li>MilitaryCook18</li>
+            <li>InfantryMedic6</li>
+            <li>InfantryEngineer46</li>
+            <li>PiousSoldier67</li>
         </fixedAdultBackstories>
         <!-- <forcedHair></forcedHair> -->
         <!-- <forcedHairColor></forcedHairColor> -->

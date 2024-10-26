@@ -117,6 +117,8 @@ If you have any fixes to "Patches" for a DLC on a specific version (ex. Royalty 
 
 In addition, please work on your code in your own branch. Please run `git checkout -b yourbranch` from the `develop` branch, not the `main` branch.
 
+Please also follow/match the core game's coding conventions (like NamesCapitalizedLikeThis_Modifier).
+
 Once you're ready to add code, please open a pull request, add me (IrishMorales) reviewer, and describe what your code does in the description. Thanks! :)
 
 ## Creating art assets

@@ -62,6 +62,17 @@ If you have any ideas for the mod, please open a new GitHub issue and describe w
 
 ## Contributing code
 
+### How this mod works
+
+This code adds the storytellers and DLC reps as PawnKinds (ex. "Grenadier" class of pawns), not as WorldPawns (ex. a specific grenadier who's a 36-year-old man with depression named "Bob"). This is because:
+
+1. Rimworld saves pawns in the world save file (which mods do not directly alter without player intervention), not the game assemblies/data (which mods can directly alter). So this is mainly the only way possible to implement this.
+2. Each storyteller/DLC rep has some specific pawn behavior code or events for that storyteller/rep only. This cannot be implemented on an individual basis with world pawns (ex. I can't make the game do it so that "Bob" specifically has magic powers all the time), but it can be with PawnKinds.
+
+So this mod works by making EACH storyteller/DLC rep its own PawnKind, then adding game logic/code to make sure only one of each spawn at a given time when the player plays (ex. if PawnKind Cassandra is already in the map, another PawnKind Cassandra can't visit).
+
+### File structure
+
 This project is structured as follows:
 
 ```
@@ -101,16 +112,11 @@ ModFolder
 |_____ Patches
 ```
 
+### Please read before coding
+
 If you have any fixes to "Patches" for a DLC on a specific version (ex. Royalty 1.4), please put it in Royalty/1.4/Patches ONLY IF `MayRequire` does not work on the XML node you are adding. If `MayRequire` works for the node, please put it in that version's folder (ex. 1.4) instead. This is to keep the DLC folders as small as possible to reduce complexity.
 
 In addition, please work on your code in your own branch. Please run `git checkout -b yourbranch` from the `develop` branch, not the `main` branch.
-
-This code adds the storytellers and DLC reps as PawnKinds (ex. "Grenadier" class of pawns), not as WorldPawns (ex. a specific grenadier who's a 36-year-old man with depression named "Bob"). This is because:
-
-1. Rimworld saves pawns in the world save file (which mods do not directly alter without player intervention), not the game assemblies/data (which mods can directly alter). So this is mainly the only way possible to implement this.
-2. Each storyteller/DLC rep has some specific pawn behavior code or events for that storyteller/rep only. This cannot be implemented on an individual basis with world pawns (ex. I can't make the game do it so that "Bob" specifically has magic powers all the time), but it can be with PawnKinds.
-
-So this mod works by making EACH storyteller/DLC rep its own PawnKind, then adding game logic/code to make sure only one of each spawn at a given time when the player plays (ex. if PawnKind Cassandra is already in the map, another PawnKind Cassandra can't visit).
 
 Please also follow/match the core game's coding conventions (like NamesCapitalizedLikeThis_Modifier).
 

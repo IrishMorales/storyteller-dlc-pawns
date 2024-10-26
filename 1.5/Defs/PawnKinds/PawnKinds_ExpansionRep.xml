@@ -54,6 +54,8 @@
             <li>InfantryEngineer46</li>
             <li>PiousSoldier67</li>
         </fixedAdultBackstories>
+        <!-- TODO: fix - doesn't reflect in-game -->
+        <skinColorOverride>(95, 65, 55)</skinColorOverride>
         <!-- <forcedHair></forcedHair> -->
         <!-- <forcedHairColor></forcedHairColor> -->
         <!-- <weaponStuffOverride></weaponStuffOverride> -->

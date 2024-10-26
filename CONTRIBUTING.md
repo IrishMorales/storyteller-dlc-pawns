@@ -33,40 +33,28 @@ If the bug exists on the latest version and hasn't been opened yet, kindly open 
 <details>
     <summary>Issue template</summary>
 
-    Mod version: X.X.X
+Mod version: X.X.X
 
-    Steps to recreate the bug:
+Rimworld version: 1.X
 
-    What happened:
+Steps to recreate the bug:
 
-    What you expected to happen instead:
+What happened:
 
-    What DLCs are you playing with?
+What you expected to happen instead:
 
-    Are you playing with any mods? (Yes/No)
+What DLCs are you playing with?
 
-</details>
+What other mods are you playing with? (If many, only list the ones you suspect might be related)
 
-<details>
-    <summary>Example issue</summary>
+Error message (From Dev Mode > Debug log):
 
-    Mod version: 1.0.0
-
-    Steps to recreate the bug:
-    - While Phoebe Chillax is visiting, Cassandra Classic also visited
-
-    What happened:
-    - The game crashed with the error `Sample error here`
-
-    What you expected to happen:
-    - The game should not crash
-
-    What DLCs are you playing with?
-    Ideology
-
-    Are you playing with any mods? No
+Error trace (From Dev Mode > Debug log > Copy to clipboard):
 
 </details>
+
+[Please see this sample issue as an example.](https://github.com/IrishMorales/storyteller-dlc-pawns/issues/1#issue-2615484478)
+
 
 ## Requesting new content
 

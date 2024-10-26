@@ -15,7 +15,6 @@
         <ignoresPainShock>false</ignoresPainShock>
         <isFighter>true</isFighter>
         <combatPower>140</combatPower>
-        <maxPerGroup>1</maxPerGroup>
         <itemQuality>Normal</itemQuality>
         <forceWeaponQuality>Normal</forceWeaponQuality>
         <minApparelQuality>Normal</minApparelQuality>
@@ -31,22 +30,22 @@
         <combatPower>135</combatPower>
         <apparelMoney>9999999</apparelMoney>
         <race>Human</race>
+        <fixedGender>Male</fixedGender>
+        <maxPerGroup>1</maxPerGroup>
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
                     <li>ImperialRoyal</li>
                 </categoriesChildhood>
-                <categoriesAdulthood>
-                    <li>ExpansionRepRoyalty</li>
-                </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
+        <!-- forces the body type "Male" -->
+        <fixedAdultBackstories>
+            <li>Spymaster41</li>
+            <li>Landworker98</li>
+        </fixedAdultBackstories>
         <!-- <forcedHair></forcedHair> -->
         <!-- <forcedHairColor></forcedHairColor> -->
-        <!-- <forcedTraits></forcedTraits> -->
-        <fixedChildBackstories></fixedChildBackstories>
-        <fixedAdultBackstories></fixedAdultBackstories>
-        <fixedGender>Male</fixedGender>
         <!-- <weaponStuffOverride></weaponStuffOverride> -->
         <!-- <weaponStyleDef></weaponStyleDef> -->
         <!-- <apparelRequired></apparelRequired> -->

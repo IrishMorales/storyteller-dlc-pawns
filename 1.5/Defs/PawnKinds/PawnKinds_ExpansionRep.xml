@@ -23,7 +23,7 @@
     </PawnKindDef>
 
     <!-- Royalty Rep -->
-    <PawnKindDef MayRequire="Ludeon.RimWorld.Royalty" ParentName="RoyalBase">
+    <PawnKindDef MayRequire="Ludeon.RimWorld.Royalty" ParentName="RoyalUpperBase" Inherit="False">
         <defName>ExpansionRep_Royalty</defName>
         <label>royal inquisitor</label>
         <labelPlural>royal inquisitors</labelPlural>
@@ -31,7 +31,16 @@
         <combatPower>135</combatPower>
         <apparelMoney>9999999</apparelMoney>
         <race>Human</race>
-        <!-- <backstoryCategories></backstoryCategories> -->
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ImperialRoyal</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ExpansionRepRoyalty</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
         <!-- <forcedHair></forcedHair> -->
         <!-- <forcedHairColor></forcedHairColor> -->
         <!-- <forcedTraits></forcedTraits> -->
@@ -42,7 +51,6 @@
         <!-- <weaponStyleDef></weaponStyleDef> -->
         <!-- <apparelRequired></apparelRequired> -->
         <!-- <apparelColor></apparelColor> -->
-        <!-- <skinColorOverride></skinColorOverride> -->
         <minGenerationAge>50</minGenerationAge>
         <maxGenerationAge>80</maxGenerationAge>
         <specificApparelRequirements>

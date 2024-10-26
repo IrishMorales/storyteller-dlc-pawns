@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- For Royalty Rep -->
+  <BeardDef>
+    <defName>Royalty</defName>
+    <label>royalty</label>
+    <texPath>StorytellerAndDLCPawns/Things/Pawn/Humanlike/Beards/BeardRoyalty</texPath>
+    <styleGender>Male</styleGender>
+    <category>Urban</category>
+    <styleTags>
+        <li>BeardUrban</li>
+        <li>BeardRural</li>
+      </styleTags>
+  </BeardDef>
+
+</Defs>

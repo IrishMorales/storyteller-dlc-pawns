@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    
+    <!-- Royalty Rep -->
+    <HairDef>
+        <defName>Royalty</defName>
+        <label>royalty</label>
+        <styleGender>Male</styleGender>
+        <texPath>Things/Pawn/Humanlike/Hairs/Royalty</texPath>
+        <category>Royal</category>
+        <styleTags>
+            <li>Royalty</li>
+            <li>Urban</li>
+            <li>Rural</li>
+            <li>HairLong</li>
+        </styleTags>
+    </HairDef>
+
+</Defs>

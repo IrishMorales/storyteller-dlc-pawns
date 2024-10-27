@@ -6,7 +6,7 @@
         <defName>Royalty</defName>
         <label>royalty</label>
         <styleGender>Male</styleGender>
-        <texPath>Things/Pawn/Humanlike/Hairs/Royalty</texPath>
+        <texPath>Things/Pawn/Humanlike/Hairs/HairRoyalty</texPath>
         <category>Royal</category>
         <styleTags>
             <li>Royalty</li>

@@ -4,7 +4,7 @@
   <ThingDef Name="BodyPartExpansionRepRoyaltyBase" ParentName="BodyPartBase" Abstract="True">
     <techLevel>Spacer</techLevel>
     <thingCategories>
-      <li>BodyPartsRoyalty</li>
+      <li>BodyPartsArchotech</li>
     </thingCategories>
     <graphicData>
       <texPath>Things/Item/Health/HealthItem</texPath>
@@ -42,7 +42,7 @@
         <drawData>
           <defaultData>
             <layer>56</layer>
-            <offset>(0, 0, 0.25)</offset>
+            <offset>(0, 0, -0.25)</offset>
           </defaultData>
           <dataWest>
             <flip>true</flip>
@@ -123,10 +123,10 @@
         <drawData>
           <defaultData>
             <layer>56</layer>
-            <offset>(0, 0, 0.05)</offset>
+            <offset>(0.1, 0, -0.16)</offset>
           </defaultData>
           <dataWest>
-            <flip>false</flip>
+            <flip>true</flip>
           </dataWest>
         </drawData>
       </li>

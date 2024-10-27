@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <!-- Royalty Rep Dress Coat (Outer) -->
+
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_DressCoatBelted</defName>
     <label>dress coat</label>
@@ -59,5 +61,79 @@
       <li>Clothing</li>
     </tradeTags>
   </ThingDef>
+
+  <!-- Royalty Rep Forehead Decor (Headgear) -->
+
+  <!-- <ThingDef ParentName="ApparelBase">
+    <defName>Apparel_Diadem</defName>
+    <label>diadem</label>
+    <description>A metallic ornament with an elaborate design worn on the forehead.</description>
+    <smeltable>true</smeltable>
+    <thingCategories>
+      <li>HeadgearNoble</li>
+    </thingCategories>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <defaultIngredientFilter>
+        <categories>
+          <li>Root</li>
+        </categories>
+        <disallowedThingDefs>
+          <li>Jade</li>
+          <li MayRequire="Ludeon.RimWorld.Anomaly">Bioferrite</li>
+        </disallowedThingDefs>
+      </defaultIngredientFilter>
+      <researchPrerequisite>RoyalApparel</researchPrerequisite>
+      <displayPriority>230</displayPriority>
+    </recipeMaker>
+    <graphicData>
+      <texPath>StorytellerAndDLCPawns/Things/Pawn/Humanlike/Apparel/Diadem/Diadem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.9, 0.9)</drawSize>
+    </graphicData>
+    <costStuffCount>20</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>0.2</Mass>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.15</SocialImpact>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <parentTagDef>ApparelHead</parentTagDef>
+      <wornGraphicPath>StorytellerAndDLCPawns/Things/Pawn/Humanlike/Apparel/Diadem/Diadem</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Royal</li>
+        <li>RoyalTier5</li>
+      </tags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <tradeTags>
+      <li>Clothing</li>
+    </tradeTags>
+  </ThingDef> -->
 
 </Defs>

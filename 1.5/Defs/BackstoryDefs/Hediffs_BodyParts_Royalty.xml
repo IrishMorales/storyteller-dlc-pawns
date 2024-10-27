@@ -18,6 +18,7 @@
   </ThingDef>
 
   <!-- Royalty Rep eye -->
+
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>ExpansionRepRoyaltyEye</defName>
     <label>inquisitor eye</label>
@@ -35,13 +36,13 @@
     <renderNodeProperties>
       <li Class="PawnRenderNodeProperties_Eye">
         <workerClass>PawnRenderNodeWorker_HediffEye</workerClass>
-        <texPath>Things/Pawn/Wounds/ExpansionRepRoyaltyEye</texPath>
+        <texPath>StorytellerAndDLCPawns/Things/Pawn/Wounds/ExpansionRepRoyaltyEye</texPath>
         <parentTagDef>Head</parentTagDef>
         <drawSize>0.15</drawSize>
         <drawData>
           <defaultData>
             <layer>56</layer>
-            <offset>(0, 0, -0.25)</offset>
+            <offset>(0, 0, 0.25)</offset>
           </defaultData>
           <dataWest>
             <flip>true</flip>
@@ -98,6 +99,7 @@
   </RecipeDef>
 
   <!-- Royalty Rep forehead implant -->
+   
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>ExpansionRepRoyaltyForeheadEye</defName>
     <label>eye of foresight</label>
@@ -115,13 +117,13 @@
     <renderNodeProperties>
       <li Class="PawnRenderNodeProperties_Eye">
         <workerClass>PawnRenderNodeWorker_HediffEye</workerClass>
-        <texPath>Things/Pawn/Wounds/ExpansionRepRoyaltyForeheadEye</texPath>
+        <texPath>StorytellerAndDLCPawns/Things/Pawn/Wounds/ExpansionRepRoyaltyForeheadEye</texPath>
         <parentTagDef>Head</parentTagDef>
         <drawSize>0.15</drawSize>
         <drawData>
           <defaultData>
             <layer>56</layer>
-            <offset>(0, -0.25, 0)</offset>
+            <offset>(0, 0, 0.05)</offset>
           </defaultData>
           <dataWest>
             <flip>false</flip>

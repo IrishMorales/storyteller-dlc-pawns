@@ -3,9 +3,9 @@
 
   <!-- For Royalty Rep -->
   <BeardDef>
-    <defName>Royalty</defName>
-    <label>royalty</label>
-    <texPath>StorytellerAndDLCPawns/Things/Pawn/Humanlike/Beards/BeardRoyalty</texPath>
+    <defName>MoustachedCurtain</defName>
+    <label>moustached curtain</label>
+    <texPath>StorytellerAndDLCPawns/Things/Pawn/Humanlike/Beards/BeardMoustachedCurtain</texPath>
     <styleGender>Male</styleGender>
     <category>Urban</category>
     <styleTags>

@@ -3,10 +3,10 @@
     
     <!-- Royalty Rep -->
     <HairDef>
-        <defName>Royalty</defName>
-        <label>royalty</label>
+        <defName>LionsMane</defName>
+        <label>lion's mane</label>
         <styleGender>Male</styleGender>
-        <texPath>Things/Pawn/Humanlike/Hairs/HairRoyalty</texPath>
+        <texPath>StorytellerAndDLCPawns/Things/Pawn/Humanlike/Hairs/LionsMane</texPath>
         <category>Royal</category>
         <styleTags>
             <li>Royalty</li>

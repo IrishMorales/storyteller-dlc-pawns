@@ -55,7 +55,9 @@
     <defName>ExpansionRepRoyaltyEye</defName>
     <label>inquisitor eye</label>
     <description>TODO</description>
-    <descriptionHyperlinks><RecipeDef>InstallExpansionRepRoyaltyEye</RecipeDef></descriptionHyperlinks>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallExpansionRepRoyaltyEye</RecipeDef>
+    </descriptionHyperlinks>
     <statBases>
       <MarketValue>2400</MarketValue>
       <Mass>0.3</Mass>
@@ -93,6 +95,86 @@
       <li>Eye</li>
     </appliedOnFixedBodyParts>
     <addsHediff>ExpansionRepRoyaltyEye</addsHediff>
+  </RecipeDef>
+
+  <!-- Royalty Rep forehead implant -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>ExpansionRepRoyaltyForeheadEye</defName>
+    <label>eye of foresight</label>
+    <labelNoun>an eye of foresight</labelNoun>
+    <description>TODO</description>
+    <descriptionHyperlinks>
+      <ThingDef>ExpansionRepRoyaltyForeheadEye</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>ExpansionRepRoyaltyForeheadEye</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.40</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <renderNodeProperties>
+      <li Class="PawnRenderNodeProperties_Eye">
+        <workerClass>PawnRenderNodeWorker_HediffEye</workerClass>
+        <texPath>Things/Pawn/Wounds/ExpansionRepRoyaltyForeheadEye</texPath>
+        <parentTagDef>Head</parentTagDef>
+        <drawSize>0.15</drawSize>
+        <drawData>
+          <defaultData>
+            <layer>56</layer>
+            <offset>(0, -0.25, 0)</offset>
+          </defaultData>
+          <dataWest>
+            <flip>false</flip>
+          </dataWest>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </HediffDef>
+
+  <ThingDef ParentName="BodyPartExpansionRepRoyaltyBase">
+    <defName>ExpansionRepRoyaltyForeheadEye</defName>
+    <label>eye of foresight</label>
+    <description>TODO</description>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallExpansionRepRoyaltyForeheadEye</RecipeDef>
+    </descriptionHyperlinks>
+    <statBases>
+      <MarketValue>2400</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardStandardCore</li>
+    </thingSetMakerTags>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>InstallExpansionRepRoyaltyForeheadEye</defName>
+    <label>install eye of foresight</label>
+    <description>Install an eye of foresight.</description>
+    <descriptionHyperlinks>
+      <ThingDef>ExpansionRepRoyaltyForeheadEye</ThingDef>
+      <HediffDef>ExpansionRepRoyaltyForeheadEye</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing eye of foresight.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ExpansionRepRoyaltyForeheadEye</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ExpansionRepRoyaltyForeheadEye</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Eye</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ExpansionRepRoyaltyForeheadEye</addsHediff>
   </RecipeDef>
 
 </Defs>

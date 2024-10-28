@@ -67,21 +67,21 @@
                 <bodyPartGroup>Torso</bodyPartGroup>
                 <apparelLayer>Shell</apparelLayer>
                 <requiredTag>DressCoatBelted</requiredTag>
-                <stuff>Synthread</stuff>
+                <stuff>Cloth</stuff>
                 <color>(255,255,255)</color>
             </li>
             <li>
                 <bodyPartGroup>Torso</bodyPartGroup>
                 <apparelLayer>Middle</apparelLayer>
                 <apparelDef>Apparel_PsyfocusVest</apparelDef>
-                <stuff>Synthread</stuff>
+                <stuff>Cloth</stuff>
                 <color>(40, 28, 21)</color>
             </li>
             <li>
                 <bodyPartGroup>Torso</bodyPartGroup>
                 <apparelLayer>OnSkin</apparelLayer>
                 <apparelDef>Apparel_CollarShirt</apparelDef>
-                <stuff>Synthread</stuff>
+                <stuff>Cloth</stuff>
                 <color>(32, 31, 27)</color>
             </li>
         </specificApparelRequirements>

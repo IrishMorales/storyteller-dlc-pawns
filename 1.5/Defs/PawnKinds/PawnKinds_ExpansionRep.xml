@@ -27,8 +27,8 @@
         <label>royal inquisitor</label>
         <labelPlural>royal inquisitors</labelPlural>
         <titleRequired>Duke</titleRequired>
+        <factionHostileOnDeath>true</factionHostileOnDeath>
         <combatPower>135</combatPower>
-        <apparelMoney>9999999</apparelMoney>
         <race>Human</race>
         <fixedGender>Male</fixedGender>
         <maxPerGroup>1</maxPerGroup>
@@ -58,10 +58,12 @@
         <skinColorOverride>(95, 65, 55)</skinColorOverride>
         <forcedHair>LionsMane</forcedHair>
         <forcedHairColor>(50, 50, 52)</forcedHairColor>
-        <!-- <weaponStuffOverride></weaponStuffOverride> -->
-        <!-- <weaponStyleDef></weaponStyleDef> -->
+        <weaponTags>
+            <li>EltexStaff</li>
+        </weaponTags>
         <minGenerationAge>40</minGenerationAge>
         <maxGenerationAge>70</maxGenerationAge>
+        <apparelMoney>9999999</apparelMoney>
         <specificApparelRequirements>
             <li>
                 <bodyPartGroup>Torso</bodyPartGroup>
@@ -86,7 +88,7 @@
             </li>
         </specificApparelRequirements>
         <techHediffsChance>1</techHediffsChance>
-        <techHediffsMoney>1000~2500</techHediffsMoney>
+        <techHediffsMoney>9999~9999</techHediffsMoney>
         <techHediffsMaxAmount>2</techHediffsMaxAmount>
         <techHediffsTags>
             <li>ExpansionRepRoyaltyEye</li>

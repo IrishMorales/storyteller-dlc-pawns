@@ -38,6 +38,7 @@
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
     </equippedStatOffsets>
     <apparel>
+      <developmentalStageFilter>Adult</developmentalStageFilter>
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
@@ -50,7 +51,8 @@
       </layers>
       <tags>
         <li>Royal</li>
-        <li>RoyalTier5</li>
+        <li>RoyalTier6</li>
+        <li>DressCoatBelted</li>
       </tags>
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>

@@ -56,48 +56,42 @@
         </fixedAdultBackstories>
         <!-- TODO: fix - doesn't reflect in-game -->
         <skinColorOverride>(95, 65, 55)</skinColorOverride>
-        <!-- <forcedHair></forcedHair> -->
-        <!-- <forcedHairColor></forcedHairColor> -->
+        <forcedHair>LionsMane</forcedHair>
+        <forcedHairColor>(50, 50, 52)</forcedHairColor>
         <!-- <weaponStuffOverride></weaponStuffOverride> -->
         <!-- <weaponStyleDef></weaponStyleDef> -->
-        <!-- <apparelRequired></apparelRequired> -->
-        <!-- <apparelColor></apparelColor> -->
-        <minGenerationAge>50</minGenerationAge>
-        <maxGenerationAge>80</maxGenerationAge>
+        <minGenerationAge>40</minGenerationAge>
+        <maxGenerationAge>70</maxGenerationAge>
         <specificApparelRequirements>
             <li>
-                <bodyPartGroup>UpperHead</bodyPartGroup>
-                <requiredTag>RoyalTier6</requiredTag>
-                <stuff>Plasteel</stuff>
+                <bodyPartGroup>Torso</bodyPartGroup>
+                <apparelLayer>Shell</apparelLayer>
+                <requiredTag>DressCoatBelted</requiredTag>
+                <stuff>Synthread</stuff>
+                <color>(255,255,255)</color>
             </li>
             <li>
                 <bodyPartGroup>Torso</bodyPartGroup>
                 <apparelLayer>Middle</apparelLayer>
-                <requiredTag>RoyalTier5</requiredTag>
-                <color>(55,55,55)</color>
+                <apparelDef>Apparel_PsyfocusVest</apparelDef>
+                <stuff>Synthread</stuff>
+                <color>(40, 28, 21)</color>
             </li>
             <li>
                 <bodyPartGroup>Torso</bodyPartGroup>
                 <apparelLayer>OnSkin</apparelLayer>
-                <requiredTag>RoyalTier2</requiredTag>
-                <color>(104, 85, 227)</color>
-            </li>
-            <li>
-                <bodyPartGroup>Torso</bodyPartGroup>
-                <apparelLayer>Shell</apparelLayer>
-                <requiredTag>RoyalTier6</requiredTag>
-                <color>(104, 85, 227)</color>
-                <alternateTagChoices>
-                    <li>
-                        <tag>Cape</tag>
-                        <chance>0.5</chance>
-                    </li>
-                </alternateTagChoices>
+                <apparelDef>Apparel_CollarShirt</apparelDef>
+                <stuff>Synthread</stuff>
+                <color>(32, 31, 27)</color>
             </li>
         </specificApparelRequirements>
-        <techHediffsChance>0.25</techHediffsChance>
+        <techHediffsChance>1</techHediffsChance>
         <techHediffsMoney>1000~2500</techHediffsMoney>
         <techHediffsMaxAmount>2</techHediffsMaxAmount>
+        <techHediffsTags>
+            <li>ExpansionRepRoyaltyEye</li>
+            <li>ExpansionRepRoyaltyForeheadEye</li>
+        </techHediffsTags>
         <initialWillRange>14~17</initialWillRange>
         <initialResistanceRange>38~58</initialResistanceRange>
         <useFactionXenotypes>false</useFactionXenotypes>

@@ -63,9 +63,9 @@
       <MarketValue>2400</MarketValue>
       <Mass>0.3</Mass>
     </statBases>
-    <thingSetMakerTags>
-      <li>RewardStandardCore</li>
-    </thingSetMakerTags>
+    <techHediffsTags>
+      <li>ExpansionRepRoyaltyEye</li>
+    </techHediffsTags>
   </ThingDef>
 
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
@@ -144,9 +144,9 @@
       <MarketValue>2400</MarketValue>
       <Mass>0.3</Mass>
     </statBases>
-    <thingSetMakerTags>
-      <li>RewardStandardCore</li>
-    </thingSetMakerTags>
+    <techHediffsTags>
+      <li>ExpansionRepRoyaltyForeheadEye</li>
+    </techHediffsTags>
   </ThingDef>
 
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">

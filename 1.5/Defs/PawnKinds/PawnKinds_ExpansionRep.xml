@@ -58,13 +58,15 @@
         <skinColorOverride>(95, 65, 55)</skinColorOverride>
         <forcedHair>LionsMane</forcedHair>
         <forcedHairColor>(50, 50, 52)</forcedHairColor>
-        <weaponTags>
+        <!-- TODO: Replace with unique weapon (chalice) -->
+        <!-- <weaponTags>
             <li>EltexStaff</li>
-        </weaponTags>
+        </weaponTags> -->
         <minGenerationAge>40</minGenerationAge>
         <maxGenerationAge>70</maxGenerationAge>
         <apparelMoney>9999999</apparelMoney>
         <specificApparelRequirements>
+            <!-- TODO: Replace with unique headgear -->
             <li>
                 <bodyPartGroup>Torso</bodyPartGroup>
                 <apparelLayer>Shell</apparelLayer>

@@ -38,11 +38,11 @@
         <workerClass>PawnRenderNodeWorker_HediffEye</workerClass>
         <texPath>StorytellerAndDLCPawns/Things/Pawn/Wounds/ExpansionRepRoyaltyEye</texPath>
         <parentTagDef>Head</parentTagDef>
-        <drawSize>0.15</drawSize>
+        <drawSize>0.13</drawSize>
         <drawData>
           <defaultData>
-            <layer>56</layer>
-            <offset>(0, 0, -0.25)</offset>
+            <layer>70</layer>
+            <offset>(-0.02, 0, -0.22)</offset>
           </defaultData>
           <dataWest>
             <flip>true</flip>
@@ -123,7 +123,7 @@
         <drawData>
           <defaultData>
             <layer>56</layer>
-            <offset>(0.1, 0, -0.16)</offset>
+            <offset>(0.1, 0, -0.14)</offset>
           </defaultData>
           <dataWest>
             <flip>true</flip>

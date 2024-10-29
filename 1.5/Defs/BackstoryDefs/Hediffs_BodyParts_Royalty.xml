@@ -104,7 +104,7 @@
     <defName>ExpansionRepRoyaltyForeheadEye</defName>
     <label>eye of foresight</label>
     <labelNoun>an eye of foresight</labelNoun>
-    <description>TODO</description>
+    <description>This brain implant increases the user's psychic sensitivity and projects the user's mood in a large range, forcing others to feel a blurred, simplified version of the user's emotions. Given its power in psychic combat, it is only known to be crafted by the royal empire, who bestows it upon those with the title of royal inquisitor.</description>
     <descriptionHyperlinks>
       <ThingDef>ExpansionRepRoyaltyForeheadEye</ThingDef>
     </descriptionHyperlinks>
@@ -123,7 +123,7 @@
     </stages>
     <comps>
       <li Class="HediffCompProperties_PsychicHarmonizer">
-        <range>50</range>
+        <range>100</range>
         <thought>PsychicHarmonization</thought>
       </li>
     </comps>

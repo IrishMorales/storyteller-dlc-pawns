@@ -104,7 +104,7 @@
     <defName>ExpansionRepRoyaltyForeheadEye</defName>
     <label>eye of foresight</label>
     <labelNoun>an eye of foresight</labelNoun>
-    <description>This brain implant increases the user's psychic sensitivity and projects the user's mood in a large range, forcing others to feel a blurred, simplified version of the user's emotions. It is especially useful in keeping morale high - or upsetting armies who pick a fight with the user.</description>
+    <description>This brain implant increases the user's psychic sensitivity and projects the user's mood in a large range, forcing others to feel a blurred, simplified version of the user's emotions. It is especially useful in keeping morale high - or upsetting armies who pick a fight.</description>
     <descriptionHyperlinks>
       <ThingDef>ExpansionRepRoyaltyForeheadEye</ThingDef>
     </descriptionHyperlinks>

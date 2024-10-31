@@ -84,8 +84,8 @@
             <li>
                 <bodyPartGroup>Torso</bodyPartGroup>
                 <apparelLayer>OnSkin</apparelLayer>
-                <apparelDef>Apparel_CollarShirt</apparelDef>
-                <stuff>Cloth</stuff>
+                <requiredTag>SkinArmor</requiredTag>
+                <stuff>Plasteel</stuff>
                 <color>(32, 31, 27)</color>
             </li>
         </specificApparelRequirements>
@@ -104,6 +104,7 @@
                 <Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</Baseliner>
             </xenotypeChances>
         </xenotypeSet>
+        <biocodeApparelChance>1</biocodeApparelChance>
         <requiredWorkTags>
             <li>Violent</li>
         </requiredWorkTags>
